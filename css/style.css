@@ -1,0 +1,49 @@
+#map {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.marker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #248f69;
+    border: 1.2px solid white;
+    border-radius: 15%;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+}
+
+#infoWindow {
+
+    position: absolute;
+    z-index: 9999;
+    display: none;
+    background-color: rgba(210, 180, 140, 0.5);
+    padding: 10px;
+    width: 100px;
+    height: 80px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 30%;
+    left: 50%;
+    top: 50%;
+    transform: translate(50%, -40%);
+
+}
+
+.btn-close {
+
+    font-size: 15px;
+    float: right;
+
+}
+
+h1 {
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 900;
+}
